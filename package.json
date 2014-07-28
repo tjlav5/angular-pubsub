@@ -1,0 +1,27 @@
+{
+  "name": "angular-pubsub",
+  "version": "0.0.1",
+  "description": "A publisher/subscriber service for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjlav5/angular-pubsub.git"
+  },
+  "keywords": [
+    "angular",
+    "publisher",
+    "subscriber"
+  ],
+  "author": "TJ Lavelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjlav5/angular-pubsub/issues"
+  },
+  "homepage": "https://github.com/tjlav5/angular-pubsub",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
