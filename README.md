@@ -1,4 +1,4 @@
-angular-pubsub [![Build Status](https://travis-ci.org/tjlav5/angular-pubsub.svg?branch=master)](https://travis-ci.org/tjlav5/angular-pubsub)
+angular-pubsub [ ![Codeship Status for tjlav5/angular-pubsub](https://www.codeship.io/projects/97c63600-f8b9-0131-b22c-4ee067ef6546/status)](https://www.codeship.io/projects/28741)
 ==============
 
 A publisher/subscribers service for AngularJS.
