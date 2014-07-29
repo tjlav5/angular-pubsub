@@ -1,6 +1,6 @@
 {
   "name": "angular-pubsub",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A publisher/subscriber service for AngularJS",
   "main": "index.js",
   "scripts": {
