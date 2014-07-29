@@ -4,7 +4,7 @@
   "description": "A publisher/subscriber service for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,15 @@
   "homepage": "https://github.com/tjlav5/angular-pubsub",
   "dependencies": {
     "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "istanbul": "^0.3.0",
+    "gulp-mocha": "^0.5.2",
+    "gulp": "^3.8.6",
+    "gulp-istanbul": "^0.2.1",
+    "sinon": "^1.10.3",
+    "gulp-coveralls": "^0.1.2",
+    "coveralls": "^2.11.1"
   }
 }
