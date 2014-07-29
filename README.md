@@ -1,4 +1,4 @@
-angular-pubsub [![Build Status](https://travis-ci.org/tjlav5/angular-pubsub.svg?branch=master)](https://travis-ci.org/tjlav5/angular-pubsub)
+angular-pubsub [![Build Status](https://travis-ci.org/tjlav5/angular-pubsub.svg?branch=master)](https://travis-ci.org/tjlav5/angular-pubsub) [![Coverage Status](https://coveralls.io/repos/tjlav5/angular-pubsub/badge.png)](https://coveralls.io/r/tjlav5/angular-pubsub)
 ==============
 
 A publisher/subscribers service for AngularJS.
