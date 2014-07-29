@@ -80,4 +80,4 @@ PubSub.prototype.unsubscribe = function(uid) {
 //   uid: foo()
 // }
 
-module.exports = PubSub;
+module.exports = new PubSub();

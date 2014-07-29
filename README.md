@@ -1,9 +1,15 @@
+angular-pubsub
+===
 [![Build Status](https://travis-ci.org/tjlav5/angular-pubsub.svg?branch=master)](https://travis-ci.org/tjlav5/angular-pubsub) [![Coverage Status](https://coveralls.io/repos/tjlav5/angular-pubsub/badge.png)](https://coveralls.io/r/tjlav5/angular-pubsub) [![Dependencies](https://david-dm.org/tjlav5/angular-pubsub.png)](#)
-==============
+---
 
 A publisher/subscribers service for AngularJS.
 
-Example
+> Currently relies on browserify.
+  Roadmap will include a built file that can be loaded in an index
+  and injected into an angular app without this requirement.
+
+Example Usage
 ---
 
 ***app.js***
