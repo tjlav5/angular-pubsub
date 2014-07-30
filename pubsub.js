@@ -13,13 +13,16 @@ var PubSub = function (config) {
 PubSub.prototype.publish = function(eventName, data) {
   if (this.debug) { console.log('PUBLISH', eventName, data); }
 
-  if (this.evCache[eventName]) {
-    _.forEach(this.evCache[eventName].uids, function (uid) {
-      this.cbCache[uid].fn(data, this.evCache[eventName].cache)
-    }.bind(this));
-
-    this.evCache[eventName].cache = data;
-  }
+  this.evCache[eventName] = this.evCache[eventName] || {
+    cache: undefined,
+    uids: []
+  };
+  
+  _.forEach(this.evCache[eventName].uids, function (uid) {
+    this.cbCache[uid].fn(data, this.evCache[eventName].cache)
+  }.bind(this));
+    
+  this.evCache[eventName].cache = data;
 
 };
 
@@ -56,6 +59,17 @@ PubSub.prototype.unsubscribe = function(uid) {
     return _uid === uid;
   });
   delete this.cbCache[uid];
+
+};
+
+PubSub.prototype.getCache = function(eventName) {
+  if (this.debug) { console.log('GETCACHE', eventName); }
+
+  if (!eventName) {
+    throw new Error();
+  }
+
+  return this.evCache[eventName] && this.evCache[eventName].cache;
 
 };
 

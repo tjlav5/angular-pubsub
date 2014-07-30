@@ -43,6 +43,14 @@ describe('PubSub', function () {
   it ('should throw errors', function () {
     assert.throws(pubsub.subscribe, Error, "Error thrown");
     assert.throws(pubsub.unsubscribe, Error, "Error thrown");
+    assert.throws(pubsub.getCache, Error, "Error thrown");
+  });
+
+  it ('should get cache', function () {
+    pubsub.publish('testEvent', "HELLO");
+    assert(pubsub.getCache('testEvent') === "HELLO");
+    pubsub.publish('testEvent', "WORLD");
+    assert(pubsub.getCache('testEvent') === "WORLD");
   });
 
 });
