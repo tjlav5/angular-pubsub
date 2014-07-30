@@ -3,6 +3,7 @@
 var _ = require('lodash');
 
 var PubSub = function (config) {
+  config = config || {};
   this.evCache = {};
   this.cbCache = {};
 
