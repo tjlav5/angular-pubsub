@@ -6,7 +6,7 @@ var PubSub = function (config) {
   this.evCache = {};
   this.cbCache = {};
 
-  // this.debug = config.debug || false;
+  this.debug = config.debug || false;
 };
 
 PubSub.prototype.publish = function(eventName, data) {
@@ -57,27 +57,5 @@ PubSub.prototype.unsubscribe = function(uid) {
   delete this.cbCache[uid];
 
 };
-
-// OLD ****
-// {
-//   eventName: {
-//     cache: --,
-//     callbacks: [{
-//       id: --,
-//       fn: --
-//     }]
-//   }
-// }
-// NEW ****
-// {
-//   eventName: {
-//     cache: undefined,
-//     uids: []
-//   }
-// }
-
-// {
-//   uid: foo()
-// }
 
 module.exports = new PubSub();
