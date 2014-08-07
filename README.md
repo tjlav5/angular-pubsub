@@ -1,7 +1,6 @@
 angular-pubsub
 ===
 [![NPM version](http://img.shields.io/npm/v/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub) [![Build Status](http://img.shields.io/travis/tjlav5/angular-pubsub.svg?style=flat)](https://travis-ci.org/tjlav5/angular-pubsub) [![Coverage Status](http://img.shields.io/coveralls/tjlav5/angular-pubsub.svg?style=flat)](https://coveralls.io/r/tjlav5/angular-pubsub) [![Dependencies](http://img.shields.io/david/tjlav5/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub) [![Downloads](http://img.shields.io/npm/dm/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub)
----
 
 A publisher/subscribers service for AngularJS.
 
