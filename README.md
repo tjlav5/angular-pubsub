@@ -1,6 +1,6 @@
 angular-pubsub
 ===
-[![NPM version](https://badge.fury.io/js/angular-pubsub.svg)](https://www.npmjs.org/package/angular-pubsub) [![Build Status](https://travis-ci.org/tjlav5/angular-pubsub.svg?branch=master)](https://travis-ci.org/tjlav5/angular-pubsub) [![Coverage Status](https://coveralls.io/repos/tjlav5/angular-pubsub/badge.png)](https://coveralls.io/r/tjlav5/angular-pubsub) [![Dependencies](https://david-dm.org/tjlav5/angular-pubsub.png)](https://www.npmjs.org/package/angular-pubsub)
+[![NPM version](http://img.shields.io/npm/v/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub) [![Build Status](http://img.shields.io/travis/tjlav5/angular-pubsub.svg?style=flat)](https://travis-ci.org/tjlav5/angular-pubsub) [![Coverage Status](http://img.shields.io/coveralls/tjlav5/angular-pubsub.svg?style=flat)](https://coveralls.io/r/tjlav5/angular-pubsub) [![Dependencies](http://img.shields.io/david/tjlav5/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub) [![Downloads](http://img.shields.io/npm/dm/angular-pubsub.svg?style=flat)](https://www.npmjs.org/package/angular-pubsub)
 ---
 
 A publisher/subscribers service for AngularJS.
